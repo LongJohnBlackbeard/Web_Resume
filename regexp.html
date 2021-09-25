@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<!--
+
+ Author: Daniel Tujo
+
+ Class:  Software Engineering
+
+ Project: Lab 2 / RegExp
+
+ Description: RegExp from Lab 2 question 6. Has input fields that test string and a regexp giving true or 
+                false output.
+
+-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,8 +22,9 @@
     </head>
     <body>
         <h1>RegExp</h1>
+        <!-- Container to structure elements.-->
         <div class="div-container">
-            
+            <!--Two elements that each contain a input field.-->
             <div id="input-field">
                 <label for="string">String:</label><br>
                 <input type="text" id="string" name="string" value="String to be searched">
@@ -19,6 +32,7 @@
             <div id="input-field">
                 <label for="regexp">RegExp:</label><br>
                 <input type="text" id="regexp" name="regexp" value="searched">
+                <!--This element also contains the button that calls the js function-->
                 <button type="button" onclick="RegFunction()">Check</button>
             </div>
             <div class="input field">                    
